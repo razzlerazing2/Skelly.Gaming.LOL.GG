@@ -105,7 +105,7 @@ const routes = [
   { path: "/vk", file: "settings.html" },
   { path: "/rx", file: "tabs.html" },
   { path: "/", file: "index.html" },
-];git status
+];
 
 // biome-ignore lint/complexity/noForEach:
 routes.forEach(route => {
