@@ -22,16 +22,17 @@ const PORT = process.env.PORT || 8080;
 const cache = new Map();
 const CACHE_TTL = 30 * 24 * 60 * 60 * 1000; // Cache for 30 Days
 
-if (config.challenge !== false) {
-  console.log(
-    chalk.green("🔒 Password protection is enabled! Listing logins below"),
-  );
-  // biome-ignore lint/complexity/noForEach:
-  Object.entries(config.users).forEach(([username, password]) => {
-    console.log(chalk.blue(`Username: ${username}, Password: ${password}`));
-  });
-  app.use(basicAuth({ users: config.users, challenge: true }));
-}
+// --- Basic Authentication Configuration ---
+// console.log(
+//   chalk.green("🔒 Password protection is enabled! Listing logins below"),
+// );
+// // biome-ignore lint/complexity/noForEach:
+// Object.entries(config.users).forEach(([username, password]) => {
+//   console.log(chalk.blue(`Username: ${username}, Password: ${password}`));
+// });
+// app.use(basicAuth({ users: config.users, challenge: true }));
+console.log(chalk.yellow("🔓 Password protection is disabled."));
+// --- End of Basic Authentication Configuration ---
 
 app.get("/e/*", async (req, res, next) => {
   try {
@@ -104,7 +105,7 @@ const routes = [
   { path: "/vk", file: "settings.html" },
   { path: "/rx", file: "tabs.html" },
   { path: "/", file: "index.html" },
-];
+];git status
 
 // biome-ignore lint/complexity/noForEach:
 routes.forEach(route => {
