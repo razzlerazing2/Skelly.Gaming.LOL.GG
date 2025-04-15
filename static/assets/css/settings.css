@@ -129,10 +129,16 @@ input {
    font-size: 20px;
    transition: 0.2s;
    margin-top: 10px;
-   background-color: green;
+     border: 2px solid orange; /* Use full border, not border-color alone */
+  background-color: transparent;
+  color: green;
+  font-size: 14px;
+  outline: none;
+  appearance: none;          /* Removes default styling */
+  -webkit-appearance: none;  /* Safari */
+  -moz-appearance: none; 
    padding: 0.5rem;
    border-radius: 10px;
-   color: white;
    height: 50px;
    width: 50%;
    padding: 10px;
@@ -158,15 +164,18 @@ button {
 }
 
 select {
-   font-family: 'Press Start 2P', cursive;
-   padding: 15px;
-   width: 100%;
-   border-radius: 10px;
-   background: green;
-   color: white;
-   font-size: 14px;
-   border: 0px;
-   outline: none;
+  font-family: 'Press Start 2P', cursive;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid orange; /* Use full border, not border-color alone */
+  background-color: transparent;
+  color: green;
+  font-size: 14px;
+  outline: none;
+  appearance: none;          /* Removes default styling */
+  -webkit-appearance: none;  /* Safari */
+  -moz-appearance: none;     /* Firefox */
 }
 select:hover {
    transform: scale(1.01)
