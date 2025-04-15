@@ -123,6 +123,7 @@ input {
 }
 
 .key-button {
+   font-family: 'Press Start 2P', cursive;
    cursor: pointer;
    border: 2px;
    font-size: 20px;
@@ -141,6 +142,7 @@ input {
    transform: scale(1.1)
 }
 button {
+   font-family: 'Press Start 2P', cursive;
    cursor: pointer;
    border: 2px;
    transition: 0.2s;
@@ -156,12 +158,13 @@ button {
 }
 
 select {
+   font-family: 'Press Start 2P', cursive;
    padding: 15px;
    width: 100%;
    border-radius: 10px;
    background: white;
    color: black;
-   font-size: 20px;
+   font-size: 14px;
    border: 0px;
    outline: none;
 }
@@ -192,6 +195,7 @@ select:hover {
    }
 
    .settings-title {
+      font-family: 'Press Start 2P', cursive;
       font-size: 40px;
    }
 
@@ -202,6 +206,7 @@ select:hover {
 
    button,
    .key-button {
+      font-family: 'Press Start 2P', cursive;
       width: 100%;
       max-width: 200px;
    }
