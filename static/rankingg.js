@@ -15,12 +15,6 @@
       document.getElementById("loader").style.display = "none";
     }, 300); // Loader stays for 3 seconds
   }
-  // Show loader for a fixed time 
-  function showLoader() {
-    setTimeout(() => {
-      document.getElementById("loader").style.display = "none";
-    }, 1000);
-  }
 
   // Update the time every 10ms
   function updateTime() {
