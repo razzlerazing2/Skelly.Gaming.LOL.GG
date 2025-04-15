@@ -129,10 +129,10 @@ input {
    font-size: 20px;
    transition: 0.2s;
    margin-top: 10px;
-   background-color: white;
+   background-color: green;
    padding: 0.5rem;
    border-radius: 10px;
-   color: black;
+   color: white;
    height: 50px;
    width: 50%;
    padding: 10px;
@@ -162,8 +162,8 @@ select {
    padding: 15px;
    width: 100%;
    border-radius: 10px;
-   background: white;
-   color: black;
+   background: green;
+   color: white;
    font-size: 14px;
    border: 0px;
    outline: none;

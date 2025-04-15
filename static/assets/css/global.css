@@ -51,12 +51,29 @@
 body {
    font-family: 'Press Start 2P', cursive;
    text-decoration: none;
-   background-image: url("https://giffiles.alphacoders.com/221/221747.gif");
    height: 100%;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
+     animation: gradientAnimation 10s linear infinite;
+}
+@keyframes gradientAnimation {
+  0% {
+    background: linear-gradient(45deg, #ff007f, black);
+  }
+  25% {
+    background: linear-gradient(45deg, #00ff7f, #ff7f00);
+  }
+  50% {
+    background: linear-gradient(45deg, yellow, blue);
+  }
+  75% {
+    background: linear-gradient(45deg, red, white);
+  }
+  100% {
+    background: linear-gradient(45deg, green, red);
+  }
 }
 #loader {
   position: fixed;
