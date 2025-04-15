@@ -191,7 +191,7 @@ p {
 #add-tab {
    padding: 0.5rem;
    cursor: pointer;
-   background-color: black;
+   background-color: transparent;
    color: var(--text-primary);
    border: none;
    border-radius: 5px;
@@ -222,11 +222,12 @@ li {
 }
 
 li.active {
-   background-color: var(--tab-active-background);
+   background-color: transparent;
+   color: white;
 }
 
 li:hover {
-   background-color: var(--tab-active-background);
+   transform: scale(1.1)
 }
 
 iframe {
