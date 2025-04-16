@@ -1,5 +1,13 @@
 [
   {
+    "name": "Roblox",
+    "link": "https://educationbluesky.com",
+    "image": "https://play-lh.googleusercontent.com/WNWZaxi9RdJKe2GQM3vqXIAkk69mnIl4Cc8EyZcir2SKlVOxeUv9tZGfNTmNaLC717Ht",
+    "categories": ["all"],
+     "say": "I finally made Roblox work: enjoy!",
+    "partial": true
+  },
+  {
     "name": "Fancade",
     "link": "https://play.fancade.com",
     "image": "/assets/media/icon/fancade.jpg",
@@ -1524,12 +1532,6 @@
     "categories": ["all,", "sports", "local"]
   },
   {
-    "name": "Roblox (Now.GG)",
-    "link": "https://now.gg/iframe/snippet?app_pkg=com.roblox.client&partner=interstellar",
-    "image": "/assets/media/icons/roblox.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
     "name": "Madden NFL 24",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.ea.gp.maddennfl21mobile&partner=interstellar",
     "image": "/assets/media/icons/maddennfl24.webp",
@@ -1653,12 +1655,6 @@
     "name": "Now.GG",
     "link": "https://now.gg",
     "image": "/assets/media/icons/now-gg.webp",
-    "categories": ["all", "emu", "android"]
-  },
-  {
-    "name": "Roblox (NowGG.me) [Working]",
-    "link": "https://nowgg.me/apps/roblox-corporation/5349/roblox.html",
-    "image": "/assets/media/icons/shuttle.webp",
     "categories": ["all", "emu", "android"]
   },
   {
