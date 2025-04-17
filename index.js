@@ -104,7 +104,7 @@ const routes = [
   { path: "/settings", file: "settings.html" },
   { path: "/proxy", file: "tabs.html" },
   { path: "/home", file: "index.html" },
-  { path: "/ExtHangr", file: "proxy.html" },
+  { path: "/exthangr", file: "proxy.html" },
 ];
 
 // biome-ignore lint/complexity/noForEach:

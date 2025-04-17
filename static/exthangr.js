@@ -1,10 +1,10 @@
 let qp;
 
 try {
-  qp = window.top.location.pathname === "/ExtHangr";
+  qp = window.top.location.pathname === "/exthangr";
 } catch {
   try {
-    qp = window.parent.location.pathname === "/ExtHangr";
+    qp = window.parent.location.pathname === "/exthangr";
   } catch {
     qp = false;
   }
