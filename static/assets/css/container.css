@@ -2,7 +2,7 @@
    width: 145px;
    transition: all 0.2s ease;
    cursor: pointer;
-   background-color: black;
+   background: rgba(0, 0, 0, 0.7);
    border-radius: 5px;
    padding-left: 10px;
    padding-right: 10px;
@@ -11,26 +11,24 @@
 }
 
 .column img {
-   position: absolute;
    width: 145px;
    height: 145px;
-   border-radius: 0px;
-   transition: all 0.2s ease;
    border-radius: 10px;
+   transition: all 0.2s ease;
+   display: block;
+   margin: 0 auto;
 }
 
+
+
 .column p {
-   width: 145px;
-   height: 19px;
-   font-style: normal;
-   font-weight: 800;
-   font-size: 15px;
-   line-height: 19px;
-   text-align: center;
+   font-family: 'Press Start 2P', cursive;
+   font-size: 13px;
    color: var(--text-primary);
+   text-align: center;
    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
-   padding-top: 136px;
-   padding-bottom: 12px;
+   margin-top: 10px;
+   margin-bottom: 12px;
 }
 
 .column:hover {
@@ -59,19 +57,19 @@
 }
 
 input {
-     font-family: 'Press Start 2P', cursive;
-   padding: 20px;
-   width: 550px;
-   border-radius: 5px;
-   background: black;
-   text-align: center;
-   font-size: 20px;
-   border: none;
-   outline: none;
-   color: whitesmoke;
-   transition: 0.4s;
+  font-family: 'Press Start 2P', cursive;
+  width: 70%;
+  padding: 16px 20px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.7); /* Added rgba here */
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 30px;
 }
-
+input:hover {
+}
 select {
    padding: 20px;
    border-radius: 5px;
@@ -91,3 +89,28 @@ select {
    justify-content: center;
    gap: 0.5em;
 }
+.container {
+  width: 950px;
+  height: 450px;
+  margin: 100px auto 0 auto;
+  padding: 30px 40px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 25px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide WebKit scrollbars */
+.container::-webkit-scrollbar {
+  display: none;
+}
+.container:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 50px 20px rgba(255, 255, 255, 1.0);
+}
+

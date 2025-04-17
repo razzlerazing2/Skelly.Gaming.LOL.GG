@@ -51,7 +51,7 @@ body::-webkit-scrollbar {
   text-align: center;
   background: rgba(0, 0, 0, 0.75);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  border-radius: 20px;
   border: 2px solid transparent; /* Invisible border to make the shadow more visible */
   position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
