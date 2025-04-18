@@ -2,7 +2,7 @@
    width: 145px;
    transition: all 0.2s ease;
    cursor: pointer;
-   background: rgba(0, 0, 0, 0.7);
+   background: rgba(0, 0, 0, 0.55);
    border-radius: 5px;
    padding-left: 10px;
    padding-right: 10px;
@@ -12,7 +12,7 @@
 
 .column img {
    width: 145px;
-   height: 145px;
+   height: 155px;
    border-radius: 10px;
    transition: all 0.2s ease;
    display: block;
@@ -61,7 +61,7 @@ input {
   width: 70%;
   padding: 16px 20px;
   border-radius: 30px;
-  background-color: rgba(0, 0, 0, 0.7); /* Added rgba here */
+  background-color: rgba(0, 0, 0, 0.55); /* Added rgba here */
   color: white;
   border: none;
   outline: none;
@@ -82,21 +82,21 @@ select {
 }
 
 .input-c {
-   position: relative;
-   margin-top: 150px;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   gap: 0.5em;
+  position: relative;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;     /* Center items horizontally */
+  gap: 20px;               /* Space between h1 and input */
 }
 .container {
-  width: 950px;
-  height: 450px;
+  width: 1150px;
+  height: 475px;
   margin: 100px auto 0 auto;
   padding: 30px 40px;
   background: rgba(0, 0, 0, 0.7);
   border-radius: 25px;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+   box-shadow: 0 0 50px 20px rgba(255, 255, 255, 0.7);
   overflow-y: auto;
   overflow-x: hidden;
   position: relative;
@@ -109,8 +109,18 @@ select {
 .container::-webkit-scrollbar {
   display: none;
 }
-.container:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 50px 20px rgba(255, 255, 255, 1.0);
+h1 {
+  font-size: 18px;
+  margin-bottom: 20px; /* Adds space below h1 */
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 1.5; /* Increases spacing between lines */
+  margin-top: 10px; /* Adds space above h2 */
+}
+p {
+    line-height: 1.5; /* Increases spacing between lines */
+  margin-top: 10px; /* Adds space above h2 */
 }
 

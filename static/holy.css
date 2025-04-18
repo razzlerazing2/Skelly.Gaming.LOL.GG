@@ -50,7 +50,7 @@ body::-webkit-scrollbar {
   padding: 20px;
   text-align: center;
   background: rgba(0, 0, 0, 0.75);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 0 50px 20px rgba(255, 255, 255, 0.7);
   border-radius: 20px;
   border: 2px solid transparent; /* Invisible border to make the shadow more visible */
   position: relative;
@@ -58,10 +58,7 @@ body::-webkit-scrollbar {
   width: 100%;
 }
 
-.container:hover {
-  transform: translatey(-5px);
-  box-shadow: 0 0 50px 20px rgba(255, 255, 255, 1.0);
-}
+
 
 /* Loader styles */
 #loader {
@@ -167,7 +164,7 @@ body::-webkit-scrollbar {
   margin-right: 20px; /* Add space between logo and links */
 }
 .top-nav .logo:hover {
-  transform: translatey(-2px);
+  transform: scale(1.1)
 }
 
 
