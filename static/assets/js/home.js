@@ -16,7 +16,7 @@ if (
   setTimeout(() => {
     if (!popup || popup.closed) {
       alert(
-        "Pros of opening this popup: This site is cloaked and there is no tracking on this webiste, cons: you can't use Dynamic. If you want to disable popups, go to ur browser's site settings and disale it.",
+        "Pros of opening this popup: This site is cloaked and there is no tracking on this webiste, cons: you can't use Dynamic. If you want to disable popups, go to ur browser's site settings and disable it.",
       );
     } else {
       const doc = popup.document;
