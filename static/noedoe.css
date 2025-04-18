@@ -1,0 +1,42 @@
+   
+            .title-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+            }
+
+           
+
+            button {
+                background: #1e1f22;
+                color: #9dbae9;
+                font-size: 20px;
+                font-weight: bold;
+                border: 1px solid #047db7;
+                border-radius: 20px;
+                width: 150px;
+                height: 45px;
+                padding: 7px 10px;
+                cursor: pointer;
+                transition: background 0.2s ease-in-out;
+                outline: none;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            button:hover {
+                background: #38393b;
+            }
+
+            iframe {
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                border: none;
+                opacity: 0;
+            }
+
+            a {
+                color: #9dbae9;
+            }
